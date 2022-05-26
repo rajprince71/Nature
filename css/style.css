@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.hero_section {
+    background-image: url(../images/pexels-riccardo-bertolo-4245826.jpg);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: auto;
+}
+
+.navbar-brand {}
+
+.btn-outline {
+    border: 1px solid black
+}
+
+.btn-info {
+    padding: 10px 15px;
+    border: none;
+}
+
+.btn-info:hover {
+    background-color: rgb(11, 128, 149);
+    color: rgb(176, 69, 55);
+}
+
+.container-fluid {}
+
+.navbar-brand img {
+    max-width: 25%;
+    height: auto;
+    margin-top: 50px;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.word {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+.word h1 {
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+.word p {
+    font-size: 17px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.word span {
+    font-size: 100px;
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.btn-danger {
+    padding: 10px 15px;
+}
+
+.content span {
+    display: block;
+    height: 3px;
+    width: 7%;
+    background-color: yellow;
+    justify-items: center;
+    margin-bottom: 20px;
+    margin-left: 650px;
+    margin-top: 20px;
+
+}
+
+.feature-conttent {
+
+    background: #F8FFFB;
+    padding: 50px 0;
+}
+
+.feature-conttent img {}
+
+.feature-conttent h2 {
+
+    color: #536942;
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 15px;
+}
+
+.feature-conttent p {
+
+    color: #536942;
+    line-height: 24px;
+}
+
+.feature-conttent h1 {
+
+    color: #536942;
+    text-align: center;
+    margin: auto;
+}
+
+.feature-conttent span {
+    display: block;
+    height: 3px;
+    background-color: yellow;
+    width: 15%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+
+
+
+.client-contant {
+    background: #CCB9BE;
+}
+
+.client-contant h3 {
+    color: #536942;
+    font-size: 25px;
+    font-weight: 400;
+    margin: 40px 0;
+}
+
+.client-contant img {}
+
+.client-contant h5 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #536942;
+}
+
+.client_cont {}
+
+.client_cont img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 10px auto;
+
+}
+
+.wrapper {
+    min-height: 70vh;
+    background-color: #fff;
+}
+
+.wrapper-content {}
+
+.wrapper-content h6 {
+    color: #86967A;
+    line-height: 30px;
+}
+
+.wrapper-content h2 {
+    font-size: 40px;
+    color: #536942;
+    line-height: 50px;
+    margin: 10px 0px;
+    font-weight: 400;
+}
+
+.wrapper-content p {
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 30px 0;
+    color: #86967A;
+}
+
+.btn-custom1 {
+    font-size: 18px;
+    border: 1px solid margin: 0;
+    padding: 0;
+}
+
+
+.btn-custom2 {
+    font-size: 18px;
+    border: 1px solid #86967A;
+    background: non;
+    padding: 0;
+    padding: 12px 24px;
+    color: #86967A;
+}
+
+.btn-custom2:hover {
+    background-color: non;
+    color: #31dd73;
+}
+
+.wrapper-image {}
+
+.wrapper-image img {}
+
+
+
+.QUESTIONS {
+    background-image: url(../images/bchero.jpg);
+}
+
+.QUESTIONS h1 {
+    color: #1101f0;
+    text-align: center;
+}
+
+.QUESTIONS p {
+    text-align: center;
+    color: #002472;
+    line-height: 30px;
+}
+
+.btn-custom3 {
+    font-size: 18px;
+    /* border: 1px solid #86967A; */
+    background: yellow;
+    padding: 0;
+    padding: 12px 24px;
+    color: #536942;
+}
+
+.btn-custom3:hover {
+    background: yellowgreen;
+    color: #536942;
+}
+
+footer {
+    background-color: rgb(203 245 230 / 50%);
+    min-height: 20vh;
+    overflow: hidden;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+}
+
+footer ul li {
+    margin-left: 30px;
+}
+
+footer ul li a {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 200;
+    text-decoration: none;
+    color: #2606b4 !important;
+}
+
+.footer-image {
+    margin-left: 50%;
+}
+
+.footer-image img {
+    width: 25%;
+}
+
+footer p {
+    color: #220004;
+    line-height: 30px;
+}
